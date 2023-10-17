@@ -1,0 +1,52 @@
+.banner {
+    width: 40%;
+    padding-left: 2rem;
+    padding-top: 10rem;
+}
+
+.banner__rotulo {
+    display: flex;
+    align-items: center;
+}
+
+.banner__rotulo__netflix {
+    width: 2.5rem;
+}
+
+.banner__rotulo__texto {
+    letter-spacing: .5rem;
+}
+
+.banner__titulo {
+    width: 80%;
+}
+
+.banner__texto {
+    margin: 1rem 0 2rem 0;
+}
+
+.banner__botoes {
+    display: flex;
+    gap: 1rem;
+}
+
+.botao {
+    background-color: var(--cor-primaria);
+    border-radius: .25rem;
+    color: var(--cor-secundaria);
+    font-weight: 700;
+    padding: .5rem 1.5rem;
+    text-decoration: none;
+}
+
+.banner__botoes-assistir,
+.banner__botoes-info {
+    align-items: center;
+    display: flex;
+    gap: .5rem;
+}
+
+.banner__botoes-info {
+    background: rgba(211, 211, 211, 0.3);
+    color: var(--cor-primaria);
+}

@@ -1,0 +1,22 @@
+@import url('./banner.css');
+
+:root {
+    --cor-primaria: #FFFFFF;
+    --cor-secundaria: #000000;
+
+    --fonte-primaria: 'Inter', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(../img/background.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: var(--fonte-primaria);
+    color: var(--cor-primaria);
+}
