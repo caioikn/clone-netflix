@@ -1,8 +1,10 @@
 @import url('./banner.css');
+@import url('./header.css');
 
 :root {
     --cor-primaria: #FFFFFF;
     --cor-secundaria: #000000;
+    --cinza: #D3D3D3;
 
     --fonte-primaria: 'Inter', sans-serif;
 }
@@ -17,6 +19,7 @@ body {
     background-image: url(../img/background.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
+
     font-family: var(--fonte-primaria);
     color: var(--cor-primaria);
 }
