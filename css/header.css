@@ -25,10 +25,15 @@
 }
 
 .navegacao__item {
-    color: var(--cinza);
+    color: var(--cor-primaria);
     font-size: 0.875em;
     font-weight: 500;
     text-decoration: none;
+}
+
+.navegacao__item:hover {
+    color: var(--cinza-hover);
+    transition: 0.5s;
 }
 
 .cabecalho__icones {

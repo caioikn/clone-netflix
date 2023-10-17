@@ -1,7 +1,7 @@
 .minha-lista {
     padding: 0 4rem;
     margin-bottom: 2rem;
-    width: 1450px;
+    overflow: hidden;
 }
 
 .minha-lista__titulo {
@@ -9,10 +9,12 @@
     margin-bottom: 1rem;
 }
 
-.minha-lista__filmes {
+.minha-lista__filmes,
+.minha-lista__filmes-em-alta {
     display: flex;
     gap: 1rem;
     max-width: 100%;
+    margin-bottom: 1.5rem;
 }
 
 .minha-lista__filmes img {
@@ -25,5 +27,36 @@
 }
 
 .imagem__animacao:hover {
+    transform: scale(1.2);
+}
+
+.minha-lista__filmes {
+    position: relative;
+}
+
+.filme-anterior {
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    height: 100%;
+    left: -60px;
+    padding: 0 1rem;
+    position: absolute;
+    transition: transform ease-in-out;
+}
+
+.filme-posterior {
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    height: 100%;
+    padding: 0 1rem;
+    position: absolute;
+    right: -60px;
+    transition: transform ease-in-out;
+}
+
+.filme-anterior:hover,
+.filme-posterior:hover {
     transform: scale(1.2);
 }

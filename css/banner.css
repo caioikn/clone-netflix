@@ -45,7 +45,15 @@
     gap: .5rem;
 }
 
+.banner__botoes-assistir:hover {
+    background-color: var(--cinza);
+}
+
 .banner__botoes-info {
     background: rgba(211, 211, 211, 0.3);
     color: var(--cor-primaria);
+}
+
+.banner__botoes-info:hover {
+    background: rgba(211, 211, 211, 0.1);
 }
