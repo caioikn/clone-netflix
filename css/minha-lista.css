@@ -1,0 +1,19 @@
+.minha-lista {
+    padding: 0 4rem;
+    width: 1450px;
+}
+
+.minha-lista__titulo {
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.minha-lista__filmes {
+    display: flex;
+    gap: 1rem;
+    max-width: 100%;
+}
+
+.minha-lista__filmes img {
+    width: 350px;
+}
