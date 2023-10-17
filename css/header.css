@@ -26,7 +26,7 @@
 
 .navegacao__item {
     color: var(--cinza);
-    font-size: 14px;
+    font-size: 0.875em;
     font-weight: 500;
     text-decoration: none;
 }

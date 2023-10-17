@@ -1,5 +1,6 @@
 .minha-lista {
     padding: 0 4rem;
+    margin-bottom: 2rem;
     width: 1450px;
 }
 
@@ -16,4 +17,13 @@
 
 .minha-lista__filmes img {
     width: 350px;
+}
+
+.imagem__animacao {
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.imagem__animacao:hover {
+    transform: scale(1.2);
 }
