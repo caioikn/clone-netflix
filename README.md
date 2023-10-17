@@ -9,7 +9,7 @@ Desafio proposto no site do **7 Days of Code**.
 Este projeto visa replicar a aparência e o layout da página inicial da Netflix, desenvolvido com o objetivo de praticar HTML e CSS, demonstrando habilidades na criação de interfaces web atrativas. 
 *Obs: projeto não responsivo.*
 
----
+![image](https://github.com/caioikn/clone-netflix/assets/28030999/f7c362eb-2534-47c8-8bb8-8923c776435b)
 
 ## Tecnologias utilizadas
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
